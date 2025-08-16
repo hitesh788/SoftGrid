@@ -13,6 +13,16 @@ const titles = {
   "/privacy-policy": "Privacy Policy | SoftGrid",
   "/terms-and-conditions": "Terms & Conditions | SoftGrid",
   "/advertise-with-us": "Advertise With Us | SoftGrid",
+
+  // Newly added blog routes
+  "/blogs/essential-features-for-successful-mobile-apps":
+    "Essential Features for Successful Mobile Apps | SoftGrid",
+  "/blogs/future-of-ai-in-business-strategy":
+    "Future of AI in Business Strategy | SoftGrid",
+  "/blogs/ui-ux-for-e-commerce-success":
+    "UI/UX for E-Commerce Success | SoftGrid",
+  "/blogs/top-cybersecurity-trends-to-follow":
+    "Top Cybersecurity Trends to Follow | SoftGrid",
 };
 
 export default titles;
