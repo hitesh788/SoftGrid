@@ -1,6 +1,6 @@
 // src/titles.js
 const titles = {
-  "/": "Home | SoftGrid",
+  "/": "SoftGrid Technologies | Digital Solutions",
   "/faq": "FAQ | SoftGrid",
   "/services": "Services | SoftGrid",
   "/projects": "Projects | SoftGrid",
