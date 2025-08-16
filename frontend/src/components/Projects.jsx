@@ -64,7 +64,7 @@ const projectsData = [
     category: "Mobile App",
     image: project5,
     iconClass: "mobile-app",
-    link: "https://wastemanagement-x1s7.vercel.app/",
+    link: "https://chess-game-beige.vercel.app/",
   },
   {
     id: 6,
