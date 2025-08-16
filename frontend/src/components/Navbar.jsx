@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links desktop">
-          <a onClick={() => handleNavClick("home")}>Home</a>
+          <a href="/">Home</a>
           <a onClick={() => handleNavClick("services")}>Services</a>
           <a onClick={() => handleNavClick("projects")}>Projects</a>
           <a onClick={() => handleNavClick("/about-us")}>About</a>
@@ -64,7 +64,7 @@ const Navbar = () => {
 
       {menuOpen && (
         <div className="mobile-menu">
-          <a onClick={() => handleNavClick("home")}>Home</a>
+          <a href="/">Home</a>
           <a onClick={() => handleNavClick("services")}>Services</a>
           <a onClick={() => handleNavClick("projects")}>Projects</a>
           <a onClick={() => handleNavClick("/about-us")}>About</a>

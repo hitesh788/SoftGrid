@@ -9,14 +9,14 @@ const PrivacyPolicy = () => {
       <section>
         <h2>Introduction</h2>
         <p>
-          At SoftGrid, we deeply value the trust you place in us and are committed
-          to ensuring secure transactions and protecting your information
-          privacy. This Privacy Policy outlines how SoftGrid Technologies Private
-          Limited and its affiliates (collectively "SoftGrid, we, our, us")
-          collect, use, share, protect, or otherwise process your personal data
-          through our website{" "}
-          <a href="https://www.Softgrid.in" target="_black">
-            https://www.softgrid.in
+          At SoftGrid, we deeply value the trust you place in us and are
+          committed to ensuring secure transactions and protecting your
+          information privacy. This Privacy Policy outlines how SoftGrid
+          Technologies Private Limited and its affiliates (collectively
+          "SoftGrid, we, our, us") collect, use, share, protect, or otherwise
+          process your personal data through our website{" "}
+          <a href="https://www.softgridtechnologies.site" target="_black">
+            https://www.softgridtechnologies.site
           </a>{" "}
           and our mobile application (collectively, the "Platform"). You may
           browse certain sections of the Platform without registering, but
@@ -106,8 +106,8 @@ const PrivacyPolicy = () => {
           may affect certain functionalities. We also use third-party cookies,
           such as Google Analytics, to understand usage patterns. Learn more
           about Google’s data practices{" "}
-          <a href="https://policies.google.com/privacy">here</a> or opt out{" "}
-          <a href="https://tools.google.com/dlpage/gaoptout">here</a>.
+          <a target="_blank" href="https://policies.google.com/privacy">here</a> or opt out{" "}
+          <a target="_blank" href="https://tools.google.com/dlpage/gaoptout">here</a>.
         </p>
       </section>
 
@@ -153,7 +153,9 @@ const PrivacyPolicy = () => {
         <p>
           You can opt out of non-essential communications, such as promotional
           offers, after creating an account. To unsubscribe, follow the link in
-          our emails or contact our support team <a href="#">here</a>.
+          our emails or contact our support team <a  href="mailto:softgridtechnologies@gmail.com">
+            softgridtechnologies@gmail.com
+          </a>
         </p>
       </section>
 
@@ -197,9 +199,9 @@ const PrivacyPolicy = () => {
           By using our Platform or providing information, you consent to the
           collection, use, storage, and processing of your data as outlined in
           this Privacy Policy. If you share others’ data, you confirm your
-          authority to do so. You permit SoftGrid, its affiliates, and partners to
-          contact you via SMS, calls, or email for purposes specified herein. To
-          withdraw consent, email our Grievance Officer with “Withdrawal of
+          authority to do so. You permit SoftGrid, its affiliates, and partners
+          to contact you via SMS, calls, or email for purposes specified herein.
+          To withdraw consent, email our Grievance Officer with “Withdrawal of
           Consent for Processing Personal Data” in the subject line, noting that
           this may restrict services.
         </p>
@@ -217,20 +219,20 @@ const PrivacyPolicy = () => {
       <section>
         <h2>Grievance Officer</h2>
         <p>
-          <strong>Mr. Krishna Radha</strong>
+          <strong>Mr. Abhishek Kunwar</strong>
           <br />
           <strong>Designation:</strong> Customer Support Manager
           <br />
           <strong>SoftGrid Technologies Pvt Ltd</strong>,<br />
           Outer Ring Road, Bengaluru, Karnataka - 560103, India
           <br />
-          <strong>Contact us:</strong>
-          <a href="mailto:support@softgrid.com">support@softgrid.com</a>
+          <strong>Contact us: </strong>
+          <a href="mailto:softgridtechnologies@gmail.com">
+            softgridtechnologies@gmail.com
+          </a>
           <br />
-          <strong>Phone:</strong> +91-XXXXXXXXXX
+          <strong>Phone:</strong>+91-8015600894
           <br />
-          <strong>Customer Support:</strong> Reach our team for queries or
-          complaints <a href="#">here</a>
         </p>
       </section>
 
@@ -244,7 +246,7 @@ const PrivacyPolicy = () => {
 
       <footer>
         <p>
-          <em>Last updated: Jan 23, 2025.</em>
+          <em>Last updated: Aug 15, 2025.</em>
         </p>
         <p>
           <em>Version: 1.0</em>

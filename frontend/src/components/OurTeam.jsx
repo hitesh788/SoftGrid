@@ -14,30 +14,45 @@ const teamMembers = [
     title: "CEO & Founder",
     desc: "With over years of knowledge in technology and leadership, leads the company vision and strategy.",
     image: team1,
+    link1: "https://www.facebook.com/hejoshi77",
+    link2: "https://www.linkedin.com/in/hejoshi77",
+    link3: "https://x.com/hejoshi77",
   },
   {
     name: "Abhishek Kunwar",
     title: "Sl. Manager",
     desc: "With over years of knowledge in technology and leadership, leads the company vision and strategy.",
     image: team2,
+    link1: "https://www.facebook.com/nishu.kunwar.31",
+    link2: "https://www.linkedin.com/in/abhishek-kunwar55/",
+    link3: "https://x.com/kunwar_abh29597",
   },
   {
     name: "Ishan Singh",
     title: "CTO",
     desc: "Ishan oversees our technical strategy and ensures we deliver cutting-edge solutions that meet our clients' needs.",
     image: team3,
+    link1: "https://www.facebook.com/ishan.thakuri777",
+    link2: "https://www.linkedin.com/in/ishan-singh-61a0701b2/",
+    link3: "https://x.com/ishansingh2015",
   },
   {
     name: "Sumit Thakurathi",
     title: "Exec. Developer",
     desc: "Sumit leads our design team, ensuring all our solutions are functional but also visually stunning.",
     image: team4,
+    link1: "https://www.facebook.com/profile.php?id=100056740402471",
+    link2: "https://www.linkedin.com/in/sumitthakurathi/",
+    link3: "https://x.com/sumitsir0526",
   },
   {
     name: "Suran Singh Dhami",
     title: "Director",
     desc: "Suran develops and implements our marketing, helping clients achieve their growth objectives.",
     image: team5,
+    link1: "https://www.facebook.com/suran.singh.dhami.2025",
+    link2: "https://www.linkedin.com/in/suransingh7/",
+    link3: "https://x.com/Dhammi_7",
   },
 ];
 
@@ -52,20 +67,20 @@ const OurTeam = () => {
             <img
               draggable="false"
               src={member.image}
-              alt={`${member.name}`}
+              alt={member.name}
               className="profile-img"
             />
             <h2>{member.name}</h2>
             <p className="role">{member.title}</p>
             <p className="desc">{member.desc}</p>
             <div className="socials">
-              <a href="#" className="facebook">
+              <a href={member.link1} target="_blank" className="facebook">
                 <FaFacebook />
               </a>
-              <a href="#" className="linkedin">
+              <a href={member.link2} target="_blank" className="linkedin">
                 <FaLinkedin />
               </a>
-              <a href="#" className="twitter">
+              <a href={member.link3} target="_blank" className="twitter">
                 <FaTwitter />
               </a>
             </div>
