@@ -16,6 +16,7 @@ const PORT = process.env.PORT || 5000;
 // ✅ Allow both Vercel frontend & local dev
 const allowedOrigins = [
   "https://frontend-steel-seven-60.vercel.app", // frontend panel
+  "https://softgridtechnologies.site",
   "https://admin-red-two.vercel.app", // admin panel
   "http://localhost:5173",
   "http://localhost:5174", 
