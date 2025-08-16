@@ -12,7 +12,7 @@ router.post("/", async (req, res) => {
     const newMessage = new Contact({ name, email, message });
     await newMessage.save();
 
-    res.status(201).json({ message: "Message received!" });
+    res.status(201).json({ message: "Message Sent Successfully!" });
   } catch (err) {
     console.error("Error saving message:", err);
 
