@@ -49,7 +49,11 @@ const BlogSubscriber = () => {
     <div className="blog-subscriber-container">
       <h2>Blog Subscribers</h2>
 
-      {loading && <p className="bs-loading">Loading subscribers...</p>}
+      {loading && (
+        <div className="blog-lazy-loader">
+          <div className="blog-loader"></div>
+        </div>
+      )}
       {error && <p className="error">{error}</p>}
 
       {!loading && blogSubscribers.length === 0 && (

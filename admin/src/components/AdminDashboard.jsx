@@ -52,7 +52,11 @@ const AdminDashboard = () => {
   }, [API_BASE, navigate]);
 
   if (loading) {
-    return <p className="loading-text">Loading Dashboard...</p>;
+    return (
+      <div className="dashboard-lazy-loader">
+        <div className="dashboard-loader"></div>
+      </div>
+    );
   }
 
   return (
